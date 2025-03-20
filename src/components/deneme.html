@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fatura</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+      }
+      .invoice-box {
+        max-width: 800px;
+        margin: auto;
+        padding: 30px;
+        border: 1px solid #eee;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+      }
+      .header-section {
+        background: #f7f7f7;
+        padding: 10px;
+      }
+      .header-section h2 {
+        margin: 0;
+      }
+      .content-section {
+        margin-top: 20px;
+      }
+      .content-section table {
+        width: 100%;
+        line-height: inherit;
+        text-align: left;
+      }
+      .content-section table td {
+        padding: 5px;
+        vertical-align: top;
+      }
+      .content-section table tr td:nth-child(2) {
+        text-align: right;
+      }
+      .content-section table tr.top table td {
+        padding-bottom: 20px;
+      }
+      .content-section table tr.top table td.title {
+        font-size: 45px;
+        line-height: 45px;
+        color: #333;
+      }
+      .content-section table tr.information table td {
+        padding-bottom: 40px;
+      }
+      .content-section table tr.heading td {
+        background: #eee;
+        border-bottom: 1px solid #ddd;
+        font-weight: bold;
+      }
+      .content-section table tr.details td {
+        padding-bottom: 20px;
+      }
+      .content-section table tr.item td {
+        border-bottom: 1px solid #eee;
+      }
+      .content-section table tr.item.last td {
+        border-bottom: none;
+      }
+      .content-section table tr.total td:nth-child(2) {
+        border-top: 2px solid #eee;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="invoice-box">
+      <div class="header-section">
+        <h2>Fatura</h2>
+      </div>
+      <div class="content-section">
+        <table cellpadding="0" cellspacing="0">
+          <tr class="top">
+            <td colspan="2">
+              <table>
+                <tr>
+                  <td class="title">
+                 
+
+                  </td>
+
+                  <td>
+                    Fatura #: 123<br />
+                    Oluşturulma Tarihi: 15 Mart 2024<br />
+                    Ödeme Tarihi: 30 Mart 2024
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <tr class="information">
+            <td colspan="2">
+              <table>
+                <tr>
+                  <td>
+                    Fatura Sahibi Şirket.<br />
+                    12345 MDI Yazılım<br />
+                    Konya, Selçuklu
+                  </td>
+
+                  <td>
+                    Müşteri Şirket.<br />
+                    Furkan Çöker<br />
+                    m.furkancoker@gmail.com<br />
+                    <img
+                    src="../../assets/images/Original.png"
+                    style="width: 100%; max-width: 100px"
+                  />
+                </td>
+
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <tr class="heading">
+            <td>Ödeme Metodu</td>
+
+            <td>Miktar #</td>
+          </tr>
+
+          <tr class="details">
+            <td>Kredi Kartı</td>
+
+            <td>1000</td>
+          </tr>
+
+          <tr class="heading">
+            <td>Ürün</td>
+
+            <td>Fiyat</td>
+          </tr>
+
+          <tr class="item">
+            <td>Servis Ücreti</td>
+
+            <td>300.00</td>
+          </tr>
+
+          <tr class="item">
+            <td>Yedek Parça Ücreti</td>
+
+            <td>100.00</td>
+          </tr>
+
+          <tr class="item last">
+            <td>Alan adı kaydı</td>
+
+            <td>10.00</td>
+          </tr>
+
+          <tr class="total">
+            <td></td>
+
+            <td>Toplam: 410.00</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      table,
+      th,
+      td {
+        font-size: 12px;
+        font-weight: 500;
+      }
+      .left-aligned {
+        text-align: left;
+      }
+      .right-aligned {
+        text-align: right;
+      }
+      .title {
+        font-weight: bold;
+      }
+      .main-title {
+        font-weight: bold;
+        font-size: 20px;
+      }
+      .space {
+        width: 20%; /* Orta boşluğu ayarlamak için yüzdeyi değiştirebilirsiniz */
+      }
+      .invoice-box {
+        max-width: 800px;
+        margin: auto;
+        padding: 30px;
+        border: 1px solid #eee;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+      }
+
+      .heading {
+        background: #eee;
+        border-bottom: 1px solid #ddd;
+        font-weight: bold;
+      }
+      .item {
+        border-bottom: 1px solid #eee;
+      }
+      .borderTopWidth {
+        border-top: 1px solid #ccc;
+      }
+      .borderBottomWidth {
+        border-bottom: 1px solid #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="invoice-box">
+      <table>
+        <tr>
+          <th colspan="5" class="main-title">SBR TEKNİK SERVİS FORMU</th>
+        </tr>
+        <tr>
+          <td colspan="5">&nbsp;</td>
+          <!-- 'colspan' tüm sütunları kapsayacak şekilde ayarlanır -->
+        </tr>
+        <tr>
+          <th class="left-aligned title">BİLDİREN KİŞİ <br /></th>
+          <td class="space"></td>
+          <td class="space"></td>
+          <!-- Bu hücre boş bırakıldı -->
+          <th class="right-aligned">BİLDİRİM TARİHİ</th>
+          <th class="right-aligned">10 Nisan 2024</th>
+        </tr>
+
+        <tr>
+          <th class="left-aligned">ADI SOYADI</th>
+          <th class="left-aligned">FURKAN ÇÖKER</th>
+          <td class="space"></td>
+          <!-- Bu hücre boş bırakıldı -->
+          <th class="right-aligned">BİLDİRİM SAATİ</th>
+          <th class="right-aligned">13:45</th>
+        </tr>
+        <tr>
+          <th class="left-aligned">TELEFON</th>
+          <th class="left-aligned">5453952702</th>
+          <td class="space"></td>
+          <!-- Bu hücre boş bırakıldı -->
+          <th class="right-aligned">BİLDİRİM ALAN</th>
+          <th class="right-aligned">FURKAN ÇÖKER</th>
+        </tr>
+        <tr>
+          <th class="left-aligned"></th>
+          <th class="left-aligned"></th>
+          <td class="space"></td>
+          <!-- Bu hücre boş bırakıldı -->
+          <th class="right-aligned">BİLDİRİM METODU</th>
+          <th class="right-aligned"></th>
+        </tr>
+
+        <!-- Daha fazla satır ekleyebilirsiniz -->
+        <tr>
+          <td colspan="5">&nbsp;</td>
+          <!-- 'colspan' tüm sütunları kapsayacak şekilde ayarlanır -->
+        </tr>
+        <tr>
+          <td colspan="5">&nbsp;</td>
+          <!-- 'colspan' tüm sütunları kapsayacak şekilde ayarlanır -->
+        </tr>
+
+        <tr>
+          <th class="left-aligned title">MÜŞTERİNİN <br /></th>
+          <td class="space"></td>
+          <td class="space"></td>
+          <!-- Bu hücre boş bırakıldı -->
+          <th class="right-aligned"></th>
+          <th class="right-aligned"></th>
+        </tr>
+
+        <tr>
+          <th class="left-aligned">FİRMA ÜNVANI</th>
+          <th class="left-aligned" colspan="2">
+            FERLİT SİTESİ YÖNETİCİLİĞİ B BLOK
+          </th>
+
+          <th class="right-aligned">BAKIM ANLAŞMASI</th>
+          <th class="right-aligned">VAR</th>
+        </tr>
+        <tr>
+          <th class="left-aligned">FİRMA ADRESİ</th>
+          <th class="left-aligned" colspan="2">
+            BOSNA HERSEK MAH. ŞENAY SOK. NO:15
+          </th>
+
+          <th class="right-aligned">GARANTİ</th>
+          <th class="right-aligned">VAR</th>
+        </tr>
+        <tr>
+          <th class="left-aligned">VERGİ DAİRESİ NO</th>
+          <th class="left-aligned">12312135124</th>
+          <td class="space"></td>
+          <!-- Bu hücre boş bırakıldı -->
+          <th class="right-aligned">SERVİS GARANTİSİ</th>
+          <th class="right-aligned">VAR</th>
+        </tr>
+        <tr>
+          <th class="left-aligned">EMAİL</th>
+          <th class="left-aligned">FURKANN128@GMAİL.COM</th>
+          <td class="space"></td>
+          <!-- Bu hücre boş bırakıldı -->
+          <th class="right-aligned"></th>
+          <th class="right-aligned"></th>
+        </tr>
+
+        <tr>
+          <td colspan="5">&nbsp;</td>
+          <!-- 'colspan' tüm sütunları kapsayacak şekilde ayarlanır -->
+        </tr>
+        <tr>
+          <td colspan="5">&nbsp;</td>
+          <!-- 'colspan' tüm sütunları kapsayacak şekilde ayarlanır -->
+        </tr>
+
+        <tr>
+          <th class="left-aligned title">ARIZA TANIMI</th>
+          <td class="space">KAYAR KAPI ARIZASI</td>
+          <td class="space"></td>
+          <!-- Bu hücre boş bırakıldı -->
+          <th class="right-aligned"></th>
+          <th class="right-aligned"></th>
+        </tr>
+
+        <tr>
+          <th class="left-aligned">ÜRÜN CİNSİ- MODEL</th>
+          <th class="left-aligned"></th>
+
+          <th class="right-aligned"></th>
+          <th class="right-aligned"></th>
+        </tr>
+        <tr>
+          <th class="left-aligned">ÜRÜN SERİ NUMARSI</th>
+          <th class="left-aligned"></th>
+
+          <th class="right-aligned"></th>
+          <th class="right-aligned"></th>
+        </tr>
+
+        <tr>
+          <th class="title" colspan="5">SERVİS NOTU</th>
+        </tr>
+        <tr>
+          <td colspan="5">&nbsp;</td>
+          <!-- 'colspan' tüm sütunları kapsayacak şekilde ayarlanır -->
+        </tr>
+        <tr>
+          <td colspan="5">&nbsp;</td>
+          <!-- 'colspan' tüm sütunları kapsayacak şekilde ayarlanır -->
+        </tr>
+        <tr>
+          <th class="left-aligned title">YAPILAN İŞLEM</th>
+        </tr>
+      </table>
+
+      <table>
+        <tr class="heading">
+          <td></td>
+          <td>ÜRÜN KODU</td>
+          <td>ÜRÜN AÇIKLAMASI</td>
+          <td>MİKTAR</td>
+          <td>BİRİM FİYAT</td>
+
+          <td>TOPLAM FİYAT</td>
+        </tr>
+
+        <tr class="item">
+          <td>1</td>
+          <td>12352354</td>
+          <td>KAPI KOLU</td>
+          <td>3</td>
+          <td>100</td>
+
+          <td>300</td>
+        </tr>
+        <tr class="item">
+          <td>1</td>
+          <td>12352354</td>
+          <td>KAPI KOLU</td>
+          <td>3</td>
+          <td>100</td>
+
+          <td>300</td>
+        </tr>
+        <!-- Daha fazla satır ekleyebilirsiniz -->
+        <tr>
+          <td colspan="5">&nbsp;</td>
+          <!-- 'colspan' tüm sütunları kapsayacak şekilde ayarlanır -->
+        </tr>
+        <tr>
+          <td colspan="5">&nbsp;</td>
+          <!-- 'colspan' tüm sütunları kapsayacak şekilde ayarlanır -->
+        </tr>
+        <tr class="margin-top">
+          <td class="left-aligned">GİRİŞ SAATİ</td>
+        </tr>
+        <tr>
+          <td class="left-aligned">ÇIKIŞ SAATİ</td>
+        </tr>
+        <tr>
+          <td class="left-aligned">TARİHİ</td>
+        </tr>
+        <tr>
+          <td class="left-aligned">TEKNİKER</td>
+        </tr>
+      </table>
+      <table>
+      
+        <tr class="borderTopWidth">
+          <th class="title">TEKNİKER</th>
+          
+          <th class="title "">KULLANICI</th>
+        </tr>
+        <tr>
+            <th >&nbsp;</th>
+          <th >(PARÇALAR GÖZETİMİNDE DEĞİŞTİRİLMİŞTİR)</th>
+        </tr>
+
+        <tr>
+            <th>fahrettin muştu</th>
+            <th>isim alacağımız kişi</th>
+        </tr>
+      </table>
+
+      <!-- <table>
+        <tr ">
+        
+            <th >&nbsp;</th>
+          
+            <th class="right-aligned" >(PARÇALAR GÖZETİMİNDE DEĞİŞTİRİLMİŞTİR)       </th>
+            <th >&nbsp;</th>
+            <th >&nbsp;</th>
+            <th >&nbsp;</th>
+            <th >&nbsp;</th>
+        </tr>
+      </table>
+      <table>
+        <tr>
+       
+        <tr >
+            <th colspan="3" class="title">fahrettin muştu</th>
+          
+            <th colspan="3"class="title" >adını alacağımız kişi</th>
+        </tr>
+   
+       
+      </table> -->
+
+      <table class="borderBottomWidth">
+        <tr>
+          <td colspan="5">&nbsp;</td>
+          <!-- 'colspan' tüm sütunları kapsayacak şekilde ayarlanır -->
+        </tr>
+        <tr>
+          <td colspan="5">&nbsp;</td>
+          <!-- 'colspan' tüm sütunları kapsayacak şekilde ayarlanır -->
+        </tr>
+        <tr>
+          <td colspan="5">&nbsp;</td>
+          <!-- 'colspan' tüm sütunları kapsayacak şekilde ayarlanır -->
+        </tr>
+        <tr>
+          <td colspan="5">&nbsp;</td>
+          <!-- 'colspan' tüm sütunları kapsayacak şekilde ayarlanır -->
+        </tr>
+        <tr>
+          <th>İŞÇİLİK VE YEDEK PARÇA ÜCRETLERİ PEŞİN OLARAK TAHSİL EDİLİR</th>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
